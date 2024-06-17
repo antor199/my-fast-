@@ -1,6 +1,59 @@
-h1 {
-    color: aquamarine;
+  /* Shared Styles */
+body { // <uniquifier>: Use a unique and descriptive class name
+       // <weight>: Use a value from 300 to 800
 }
-p {
-    font-size: 25px;
+.text-p {
+    color: #fd6e0a;
 }
+.but-p {
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+   /* Nev styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    margin-right: 50px;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+   /* Header Styles */
+.header {
+    background-color: #fff8f3;
+} 
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic {
+   width: 500px;
+}
+
+
+
+
+
+
