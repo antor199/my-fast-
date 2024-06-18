@@ -51,8 +51,11 @@
   .header {
       background-color: #fff8f3;
       background-image: url(image/header_bg.png);
+      /* background-image: url(image/developer.png);
+      background-position: top left ; */
       background-repeat: no-repeat;
       background-position: bottom right;
+      
   }
 
   .banner {
@@ -124,7 +127,8 @@
   .section-2 {
       color: #757575;
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
+      font-family: "Open Sans";
   }
 
   #what-i-do {
@@ -193,5 +197,27 @@
     text-align: center;
     margin-top: 50px;
 }
-
-
+/* footer styles */
+footer {
+    gap: 100px;
+    display: flex;
+    padding: 100px 200px;
+    margin-top: 100px;
+    background: #FFF8F3;
+}
+.footer-column {
+    width: 50%;
+}
+.contact input, textarea {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 90%;
+}
+.social-links {
+    margin-right: 25px;
+}
